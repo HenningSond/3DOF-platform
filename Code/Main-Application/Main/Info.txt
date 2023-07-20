@@ -1,0 +1,62 @@
+General application information.
+20.05.2023
+
+Bachelor's thesis : 3DOF Motion Platform For Educational Applications With Model Predictive Control
+Created by        : Jørgen Meland Lund, Henning Sønderland & Jesper Vos 
+
+------------------------------------------------------ Application tree
+
+.
+└── Main
+    ├── icons
+    │   ├── Camera.svg.png
+    │   ├── DesktopImage.png	
+    │   └── Play_Pause.svg.png
+    ├── MPC_code
+    ├── MPC_generator
+    │   └── C_CodeGenerator.ipynb
+    ├── SavedData
+    │   ├── Record
+    │   └── Snap
+    ├── CameraCode.py
+    ├── Config.py
+    ├── ControllerTemplate.py
+    ├── GUI.py
+    ├── Main.py
+    ├── MPC.py
+    ├── PID.py
+    ├── StateSpace.py
+    └── Info.txt
+
+------------------------------------------------------ Python libraries
+platform
+numpy
+time
+datetime
+pickle
+sys
+threading
+multiprocessing
+subprocess
+pyserial
+struct
+atexit
+CVXPY 
+CVXPYgen
+OpenCV 
+PyQt5
+
+------------------------------------------------------ MPC setup
+
+It is recomended to generate the MPC_code folder on every new computer. This is done by running the C_CodeGenerator.ipynb located in the MPC_generator folder. This code should be run in jupyter notebook. It is possible to change the name of the generated MPC folder name by changing the "code_dir='MPC_code'" on line 59 in C_CodeGenerator.ipynb.
+This folder will be created in the MPC_generator folder, after it is created move it to the Main folder. 
+If it is created with a different name the import and open calls in the MPC.py code on line 7, 9, 21 and 24 needs to be changed to the coresponding folder name.
+
+
+------------------------------------------------------ Start
+
+The application needs to be started from the Main directory.
+To start the application start The Main.py code with python 3.8 or higher.
+
+The arduino Uart/serial port may need to be changed. This can be changed in the Main.py code on line 264 or 267 dependent on the system.
+
