@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\henni\PycharmProjects\24.04.2023\Khadas\Main\MPC_generator\MPC_code\c\solver_code\src\example.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\henni\PycharmProjects\24.04.2023\Khadas\Main\MPC_generator\MPC_code\c\solver_code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{9BB568EE-0807-388D-8960-05CB51596FEA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

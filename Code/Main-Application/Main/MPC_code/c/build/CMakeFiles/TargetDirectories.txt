@@ -1,0 +1,7 @@
+C:/Users/henni/PycharmProjects/24.04.2023/Khadas/Main/MPC_generator/MPC_code/c/build/CMakeFiles/cpg_example.dir
+C:/Users/henni/PycharmProjects/24.04.2023/Khadas/Main/MPC_generator/MPC_code/c/build/CMakeFiles/cpg.dir
+C:/Users/henni/PycharmProjects/24.04.2023/Khadas/Main/MPC_generator/MPC_code/c/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/henni/PycharmProjects/24.04.2023/Khadas/Main/MPC_generator/MPC_code/c/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/henni/PycharmProjects/24.04.2023/Khadas/Main/MPC_generator/MPC_code/c/build/solver_code/CMakeFiles/emosqpstatic.dir
+C:/Users/henni/PycharmProjects/24.04.2023/Khadas/Main/MPC_generator/MPC_code/c/build/solver_code/CMakeFiles/example.dir
+C:/Users/henni/PycharmProjects/24.04.2023/Khadas/Main/MPC_generator/MPC_code/c/build/solver_code/CMakeFiles/ALL_BUILD.dir

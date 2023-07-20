@@ -1,0 +1,10 @@
+^C:\USERS\HENNI\PYCHARMPROJECTS\24.04.2023\KHADAS\MAIN\MPC_GENERATOR\MPC_CODE\C\CMAKELISTS.TXT
+setlocal
+C:\Users\henni\AppData\Local\Programs\Python\Python39\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/henni/PycharmProjects/24.04.2023/Khadas/Main/MPC_generator/MPC_code/c -BC:/Users/henni/PycharmProjects/24.04.2023/Khadas/Main/MPC_generator/MPC_code/c/build --check-stamp-file C:/Users/henni/PycharmProjects/24.04.2023/Khadas/Main/MPC_generator/MPC_code/c/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
